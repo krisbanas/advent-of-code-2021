@@ -8,12 +8,12 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Day3 {
+public class Day4 {
 
     private final List<String> inputList;
 
-    public Day3() {
-        inputList = FileHelper.loadFileAsStringList("Day3Input.txt");
+    public Day4() {
+        inputList = FileHelper.loadFileAsStringList("Day4Input.txt");
     }
 
     public int part1() {
