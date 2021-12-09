@@ -13,7 +13,7 @@ public class Day6 {
     private final List<Fish> fishList;
 
     public Day6() {
-        var tmp = Arrays.stream(FileHelper.loadFileAsString("Day6Input.txt").trim().split(","))
+        var tmp = Arrays.stream(FileHelper.loadString("Day6Input.txt").trim().split(","))
                 .map(Fish::new)
                 .toList();
         fishList = new ArrayList<>(tmp);

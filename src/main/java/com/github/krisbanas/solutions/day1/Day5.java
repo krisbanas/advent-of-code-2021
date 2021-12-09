@@ -11,7 +11,7 @@ public class Day5 {
     int[][] marker = new int[1000][];
 
     public Day5() {
-        inputList = FileHelper.loadFileAsStringList("Day5Input.txt").stream()
+        inputList = FileHelper.loadStringList("Day5Input.txt").stream()
                 .map(Vent::new)
                 .toList();
         for (int i = 0; i < 1000; i++) {

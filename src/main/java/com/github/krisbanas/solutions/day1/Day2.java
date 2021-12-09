@@ -16,7 +16,7 @@ public class Day2 {
     private int aim;
 
     public Day2() {
-        commandList = FileHelper.loadFileAsStringList(INPUT).stream()
+        commandList = FileHelper.loadStringList(INPUT).stream()
                 .map(x -> Arrays.stream(x.split(" ")).toList())
                 .map(x -> new Command(Direction.valueOf(x.get(0).toUpperCase()), Integer.parseInt(x.get(1))))
                 .collect(Collectors.toList());

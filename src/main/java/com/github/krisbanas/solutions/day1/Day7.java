@@ -14,10 +14,7 @@ public class Day7 {
     private final Map<Integer, Integer> distanceMap = new HashMap<>();
 
     public Day7() {
-        inputList = Arrays.stream(FileHelper.loadFileAsString("Day7Input.txt").split(","))
-                .map(Integer::valueOf)
-                .sorted()
-                .collect(Collectors.toList());
+        inputList = FileHelper.loadStringSeparatedIntegers("Day7Input.txt");
     }
 
     public int part1() {

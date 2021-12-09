@@ -11,7 +11,7 @@ public class Day1 {
     private final List<Integer> measurementList;
 
     public Day1() {
-        measurementList = FileHelper.loadFileAsIntegerList(INPUT);
+        measurementList = FileHelper.loadIntegerList(INPUT);
     }
 
     public int part1() {

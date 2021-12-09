@@ -13,9 +13,9 @@ public class Day4 {
     private final List<Board> boards;
 
     public Day4() {
-        List<String> inputList = FileHelper.loadFileAsStringList("Day4Input.txt");
+        List<String> inputList = FileHelper.loadStringList("Day4Input.txt");
         numbersCalled = Arrays.stream(inputList.get(0).split(",")).map(Integer::parseInt).collect(Collectors.toList());
-        final var boardsTmp = Arrays.stream(FileHelper.loadFileAsString("Day4Input.txt").split("\r\n\r\n")).toList();
+        final var boardsTmp = Arrays.stream(FileHelper.loadString("Day4Input.txt").split("\r\n\r\n")).toList();
 
         List<List<List<Integer>>> boardsInt = new ArrayList<>();
         for (int j = 1; j < boardsTmp.size(); j++) {

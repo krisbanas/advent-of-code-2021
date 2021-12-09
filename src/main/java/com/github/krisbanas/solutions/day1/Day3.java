@@ -13,7 +13,7 @@ public class Day3 {
     private final List<String> inputList;
 
     public Day3() {
-        inputList = FileHelper.loadFileAsStringList("Day3Input.txt");
+        inputList = FileHelper.loadStringList("Day3Input.txt");
     }
 
     public int part1() {
