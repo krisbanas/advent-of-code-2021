@@ -1,9 +1,9 @@
 package com.github.krisbanas;
 
-import com.github.krisbanas.solutions.day1.Day9;
+import com.github.krisbanas.solutions.day1.Day10;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(new Day9().part2());
+        new Day10();
     }
 }
