@@ -1,4 +1,4 @@
-package com.github.krisbanas.solutions.day1;
+package com.github.krisbanas.solutions;
 
 import com.github.krisbanas.util.FileHelper;
 
