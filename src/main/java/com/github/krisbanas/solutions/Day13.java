@@ -46,7 +46,7 @@ public class Day13 {
     }
 
     public void part2() {
-        for (int i = 1; i < instructions.size(); i++) { // folded once already in part1
+        for (int i = 1; i < instructions.size(); i++) { // folded once already in dijkstra
             fold(i);
         }
         printPoints();

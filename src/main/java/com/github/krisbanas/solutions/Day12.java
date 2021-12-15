@@ -33,7 +33,7 @@ public class Day12 {
                 .filter(x -> !x.end.equals("start"))
                 .forEach(edge -> adjacencyList.get(edge.start).add(edge));
 
-//        part1();
+//        dijkstra();
         part2();
     }
 

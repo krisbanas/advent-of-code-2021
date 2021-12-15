@@ -22,7 +22,7 @@ public class Day14 {
             substitutionDict.put(entrySplit[0].trim(), entrySplit[1].trim());
         }
 
-//        part1();
+//        dijkstra();
         part2();
     }
 
