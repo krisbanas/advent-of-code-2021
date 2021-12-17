@@ -2,6 +2,6 @@ package com.github.krisbanas;
 
 public class Main {
     public static void main(String[] args) {
-        new com.github.krisbanas.solutions.Day17();
+        new com.github.krisbanas.solutions.Day18();
     }
 }
